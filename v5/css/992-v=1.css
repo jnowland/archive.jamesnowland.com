@@ -1,0 +1,298 @@
+/* 992 
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+
+header h1 {
+	width:110px;
+	height:110px;
+}
+
+
+section.latestArticles {
+	float:left;
+	margin-left:7.0707071%;/*70px;include gutter*/
+	margin-right:28px;
+}
+
+section.latestArticles article:first-child {
+	margin-right:42px;
+}
+
+
+section.notes {
+	width:780px;
+	/* hidding due to change in articles in 2012
+	width:287px;
+	float:left;*/
+	/*margin-left:7.0707071%;*//*70px;include gutter*/
+	
+}
+
+.projectsGrid {
+	padding-bottom:120px;
+}
+
+section.projects {
+	width:820px;/*problem before*/
+
+}
+
+.projectList li {
+	/*margin-right:79px;was 60*/
+	margin-bottom:40px;
+}
+
+.projectList li.lastOne {
+	margin-right:0;
+	
+}
+
+nav.socialMedia {
+	width:960px;
+}
+
+nav.socialMedia ul li {
+	width:172px;
+	float:left;
+	text-indent:23px;
+	text-align:center;
+
+}
+
+/* 10.CONTENT */
+/* 11.MAIN */
+
+div.grid{
+	width:960px;
+	padding:32px 0 0 0;
+}
+
+
+.notesFeatureFull, .articlesFeatureFull, .projectsFeatureFull, .contactsFeatureFull {
+	padding-top:85px;
+	
+}
+
+
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+
+
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */
+
+/*18 ABOUT PAGE*/
+
+.aboutFeatureFull {
+	width:960px;
+	margin:0 auto;
+}
+
+
+.jamesNowland img {
+	max-width:100%;	
+}
+
+
+.about section.feature p{
+	width:428px;
+	color:#432918;
+	font-size:16px;
+}
+
+.aboutText {
+	margin-left:70px;
+	width:80%;
+}
+
+ .timeline {
+	width:220px;
+	float:left;
+	margin:0 80px 0 70px;
+}
+
+.timeline ul {
+	-moz-column-count: 1;
+	-moz-column-gap: 0;
+	-webkit-column-count: 1;
+	-webkit-column-gap: 0;
+	column-count: 1;
+	column-gap: 0;
+}
+
+
+.skill, .otherLikes {
+	width:530px;
+	float:left;
+}
+
+/* 19. NOTES PAGE*/
+/*
+
+.aNote {
+	padding:0;
+	
+}
+*/
+
+/* 21. PROJECTS */
+
+section.projectStatus {
+	width:560px;
+	float:left;
+	padding-top:25px;
+	margin-left:80px;
+}
+
+section.projectStatus li {
+	float:left;
+	width:220px;
+	margin:0 50px 0 0;
+}
+
+.projectItems {
+	 width:960px;
+}
+
+.articleImages {
+	width:auto;
+}
+
+/* 22. CONTACT */
+
+section.relme {
+	display:block;
+	background:none;
+	float:right;
+	width:260px;
+	margin:-220px 3.5% 20px 0;
+	padding:0;
+}
+
+
+section.relme h3 {
+	color:#00628C;
+	padding:0 0 0 10px;
+	display:block;
+}
+
+section.relme ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:block;
+	
+}
+
+section.relme ul li {
+	background-image:url("../img/largeSocial.png");
+	background-repeat:no-repeat;
+	width:180px;
+	border:#B5CDD9 7px solid;
+	padding:10px 0;/*was 5*/
+	padding-left:32%;/*44px;*/
+	line-height:1.1em;
+	background-color:#6A7980;	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px; /* future proofing */
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	text-align:left;
+	margin:0 0 10px 0;
+	color:#FFF;
+}
+
+section.relme ul li:hover {
+	background-color:#5E98B7;
+	border-color:#D3D1CC;
+	transition: all .3s linear;
+   -o-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+}
+
+.relme .social1 {
+	background-position:18px 5px;	
+}
+
+.relme .social2 {
+	background-position:18px -147px;
+}
+
+.relme .social3 {
+	background-position:18px -298px;
+}
+
+.relme .social4 {
+	background-position:18px -449px;
+}
+
+
+section.relme ul li a {
+	display:block;
+	height:100%;
+	width:100%;
+	color:#fff;
+	text-decoration:none;
+}
+
+section.beforeYouSend {
+	width:560px;
+	float:left;
+	margin-left:37px;
+}
+
+section.beforeYouSend ol {
+	padding:0 0 0 35px;	
+}
+
+.beforeYouSend h3 {
+	padding-left:0;	
+}
+.contactform {
+	float:left;
+	width:560px;
+}
